@@ -3,19 +3,19 @@
 	<info>
 		<name>Homebrew</name>
 		<update version="0.0.1">
-			<file name="items-armour-homebrew.xml" url="" />
+			<file name="items-armour-homebrew.xml" url="https://github.com/simpso0638/dnd-homebrew/blob/main/homebrew/lost-mines-of-phandelver-hb/items-armour-homebrew.xml" />
 		</update>
 	</info>
 
 	<!--shield-->
-	<element name="The Cape" type="Cloak" source="Homebrew" id="ID_HB_THE_CAPE">
+	<element name="The Cape" type="Armor" source="Homebrew" id="ID_HB_THE_CAPE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 
 		<description>
 			<p>A cape.</p>
 		</description>
 		<setters>
-			<set name="category">Homebrew - Armour</set>
+			<set name="category">Armor</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">body</set>
@@ -28,13 +28,13 @@
 		</rules>
 	</element>
 
-	<element name="Wolf Cape" type="Cloak" source="Homebrew" id="ID_HB_WOLF_CAPE">
+	<element name="Wolf Cape" type="Armor" source="Homebrew" id="ID_HB_WOLF_CAPE">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<description>
 			<p>Cape made of wolf pelts</p>
 		</description>
 		<setters>
-			<set name="category">Homebrew - Armour</set>
+			<set name="category">Armor</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">body</set>

@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew</name>
 		<update version="0.0.1">
-			<file name="items-homebrew.xml" url="" />
+			<file name="items-rings-homebrew.xml" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-rings-homebrew.xml" />
 		</update>
 	</info>
 
@@ -13,11 +13,12 @@
 			<p>A cape made of black beaver pelts. The pelt is draped over over one shoulder. You gain a +1 bonus to AC.</p>
 		</description>
 		<setters>
-			<set name="category">Homebrew - sdfRings</set>
+			<set name="category">Rings</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="equippable">true</set>
 			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
 		</setters>
 		<rules>
 			<stat name="ac:misc" value="1" />

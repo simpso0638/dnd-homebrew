@@ -5,14 +5,14 @@
 		<description>Homebrew content for Lost Mines of Phandelver Campaign</description>
 		<author url="">John/Austin</author>
 		<update version="0.1.0">
-			<file name="homebrew.index" url="" />
+			<file name="lost-mines-of-phandelver.index" url="https://github.com/simpso0638/dnd-homebrew/blob/main/homebrew/lost-mines-of-phandelver-hb.index" />
 		</update>
 	</info>
 	<files>
-		<file name="items-armour-homebrew.index" url="" />
-		<file name="items-rings-homebrew.index" url="" />
-		<file name="items-staffs-homebrew.index" url="" />
-		<file name="items-treasure-homebrew.index" url="" />
-		<file name="items-weapons-homebrew.index" url="" />
+		<file name="items-armour-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-armour-homebrew.xml" />
+		<file name="items-rings-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-rings-homebrew.xml" />
+		<file name="items-staffs-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-staffs-homebrew.xml" />
+		<file name="items-treasure-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-treasure-homebrew.xml" />
+		<file name="items-weapons-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-weapons-homebrew.xml" />
 	</files>
 </index>
