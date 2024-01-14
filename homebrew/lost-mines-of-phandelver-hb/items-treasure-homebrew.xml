@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew</name>
+		<update version="0.0.1">
+			<file name="items-homebrew.xml" url="" />
+		</update>
+	</info>
+	
+	<!-- Homebrew Test -->
+	<element name="Gold Earring" type="Item" source="Homebrew" id="ID_HB_ITEM_GOLD_EARRING">
+		<description>
+			<p>A gold earring</p>
+		</description>
+		<setters>
+			<set name="keywords">jewlery</set>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Gold Statue" type="Item" source="Homebrew" id="ID_HB_ITEM_GOLD_STATUE">
+		<description>
+			<p>A gold statue</p>
+		</description>
+		<setters>
+			<set name="keywords">statue</set>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+</elements>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew</name>
+		<update version="0.0.1">
+			<file name="items-homebrew.xml" url="" />
+		</update>
+	</info>
+
+	<!-- Homebrew Test -->
+	<element name="Black Beaver Cloak" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_BLACK_BEAVER_CLOAK">
+		<description>
+			<p>A cape made of black beaver pelts. The pelt is draped over over one shoulder. You gain a +1 bonus to AC.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew - sdfRings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+
+</elements>

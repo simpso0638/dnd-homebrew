@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew</name>
+		<update version="0.0.1">
+			<file name="items-armour-homebrew.xml" url="" />
+		</update>
+	</info>
+
+	<!--shield-->
+	<element name="The Cape" type="Cloak" source="Homebrew" id="ID_HB_THE_CAPE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+
+		<description>
+			<p>A cape.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew - Armour</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+
+	<element name="Wolf Cape" type="Cloak" source="Homebrew" id="ID_HB_WOLF_CAPE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Cape made of wolf pelts</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew - Armour</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+</elements>

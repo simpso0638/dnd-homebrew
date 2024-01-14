@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Lost Mines of Phandelver - HB</name>
+		<description>Homebrew content for Lost Mines of Phandelver Campaign</description>
+		<author url="">John/Austin</author>
+		<update version="0.1.0">
+			<file name="homebrew.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="items-armour-homebrew.index" url="" />
+		<file name="items-rings-homebrew.index" url="" />
+		<file name="items-staffs-homebrew.index" url="" />
+		<file name="items-treasure-homebrew.index" url="" />
+		<file name="items-weapons-homebrew.index" url="" />
+	</files>
+</index>
