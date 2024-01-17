@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Adventuring Gear</name>
+        <update version="0.0.1">
+            <file name="items-gear-homebrew.xml" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-gear-homebrew.xml" />
+        </update>
+    </info>
+
+
+
+</elements>

@@ -25,52 +25,6 @@
 		</rules>
 	</element>
 
-	<element name="Whisper of the Noose" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_WHISPER_OF_THE_NOOSE">
-		<description>
-			<p>An elegant looking bow made of mahogany with a very thin strip of emerald running down the length of the bow.
-			When you hit an enemy, you deal the damage you normally would and that target's blood is marked. As an action, you may speak the command word and 
-			drain the life from targets you have hit previously. Each target who's blood is marked must make a DC 15 Constitution saving throw, 
-			taking 1d8 necrotic damage on a failed save and half as much on a successful one. You heal for half of the necrotic damage dealt.</p>
-		</description>
-		<setters>
-			<set name="category">Rings</set>
-			<set name="cost" currency="gp">500</set>
-			<set name="weight" lb="0">0.5 lb.</set>
-			<set name="slot">ring</set>
-			<set name="type">Ring</set>
-			<set name="rarity">Rare</set>
-			<set name="attunement">true</set>
-		</setters>
-	</element>
-	<element name="Fletcher's Mitt" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_FLETCHERS_MITT">
-		<description>
-			<p>A green clothed glove that allows the user to avoid or catch any projectile. It grants the wearer a +2 AC to all ranged non-magical attacks. 
-			If the user completely avoids the attack, they catch whatever projectile was flung their way, providing it can be caught in one hand. 
-			Additionally, Monk users can roll an additional d10 to reduce damage from ranged weapon attacks from the skill Deflect Missiles.</p>
-		</description>
-		<setters>
-			<set name="category">Rings</set>
-			<set name="cost" currency="gp">500</set>
-			<set name="weight" lb="0">3 lb.</set>
-			<set name="slot">ring</set>
-			<set name="type">Ring</set>
-			<set name="rarity">Rare</set>
-		</setters>
-	</element>
-	<element name="Awareness Frames" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_AWARENESS_FRAMES">
-		<description>
-			<p>A pair of thick-framed glasses that grants the wearer a +2 bonus to Perception and Awareness checks. As an action, the wearer can confer 
-			disadvantage on dexterity and strength saving throws on another creature by placing the glasses on their face.</p>
-			<p class="indent"></p>
-		</description>
-		<setters>
-			<set name="category">Rings</set>
-			<set name="cost" currency="gp">500</set>
-			<set name="weight" lb="0">2 lb.</set>
-			<set name="slot">ring</set>
-			<set name="type">Ring</set>
-			<set name="rarity">Rare</set>
-		</setters>
-	</element>
+
 
 </elements>

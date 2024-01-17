@@ -10,9 +10,11 @@
 	</info>
 	<files>
 		<file name="items-armour-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-armour-homebrew.xml" />
+		<file name="items-gear-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-gear-homebrew.xml" />
 		<file name="items-rings-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-rings-homebrew.xml" />
 		<file name="items-staffs-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-staffs-homebrew.xml" />
 		<file name="items-treasure-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-treasure-homebrew.xml" />
 		<file name="items-weapons-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-weapons-homebrew.xml" />
+		<file name="items-wondrous-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-wondrous-homebrew.xml" />
 	</files>
 </index>

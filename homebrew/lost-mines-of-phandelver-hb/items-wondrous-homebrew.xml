@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wondrous Items</name>
+        <update version="0.0.1">
+            <file name="items-wondrous-homebrew.xml" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-wondrous-homebrew.xml" />
+        </update>
+    </info>
+
+    <!-- Items for everyone -->
+    <element name="Black Beaver Cloak" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_BLACK_BEAVER_CLOAK">
+        <description>
+            <p>A cape made of black beaver pelts, draping over one shoulder. You gain a +1 bonus to AC.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="weight" lb="0">3 lb.</set>
+            <set name="slot">shoulders</set>
+            <set name="rarity">Rare</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="1" />
+        </rules>
+    </element>
+
+    <element name="Awareness Frames" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_AWARENESS_FRAMES">
+        <description>
+            <p>A pair of thick-framed glasses that grants the wearer a +2 bonus to Perception and Awareness checks. As an action, the wearer can confer 
+			disadvantage on dexterity and strength saving throws on another creature by placing the glasses on their face.</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="weight" lb="0">2 lb.</set>
+            <set name="slot">face</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+        <rules>
+            <stat name="perception:misc" value="2" />
+        </rules>
+    </element>
+
+    <element name="Whisper of the Noose" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_WHISPER_OF_THE_NOOSE">
+        <description>
+            <p>An elegant looking ribbon/bow made of mahogany with a very thin strip of emerald running down the length of the material.
+			When you hit an enemy, you deal the damage you normally would and that target's blood is marked. As an action, you may speak the command word and 
+			drain the life from targets you have hit previously. Each target who's blood is marked must make a DC 15 Constitution saving throw, 
+			taking 1d8 necrotic damage on a failed save and half as much on a successful one. You heal for half of the necrotic damage dealt.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="weight" lb="0">1 lb.</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Fletcher's Mitt" type="Item" source="Homebrew" id="ID_HB_ITEM_FLETCHERS_MITT">
+        <description>
+            <p>A green clothed glove that allows the user to avoid or catch any projectile. It grants the wearer a +2 AC to all ranged non-magical attacks. 
+			If the user completely avoids the attack, they catch whatever projectile was flung their way, providing it can be caught in one hand. 
+			Additionally, Monk users can roll an additional d10 to reduce damage from ranged weapon attacks from the skill Deflect Missiles.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="weight" lb="0">3 lb.</set>
+            <set name="slot">arms</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Broom of Flying" type="Item" source="Homebrew" id="ID_HB_ITEM_BROOM_OF_FLYING">
+        <description>
+            <p>2 uses per day. An item that resembles a simple broom, used for sweeping. Upon using a command word, as chosen by the user, 
+            it will begin to hover and allow the user to fly when mounted on it. Flying speed: 50ft, up to 400 lbs. The user can send 
+            the broom to travel somewhere within one mile of the owner using the command. The broom can also be called to the user while 
+            within a 1 mile radius of the owner.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="weight" lb="0">10 lb.</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+        <sheet>
+            <description>2 uses per day. An item that resembles a simple broom, used for sweeping. Upon using a command word, as chosen by the user, 
+            it will begin to hover and allow the user to fly when mounted on it. Flying speed: 50ft, up to 400 lbs. The user can send 
+            the broom to travel somewhere within one mile of the owner using the command. The broom can also be called to the user while 
+            within a 1 mile radius of the owner.</description>
+        </sheet>
+    </element>
+
+    <element name="Demon Eye Amulet" type="Item" source="Homebrew" id="ID_HB_ITEM_DEMON_EYE_AMULET">
+        <description>
+            <p>You have advantage for deception checks on all creatures within 10 feet of you, and they have disadvantage against all deception checks 
+        made to decieve you. Additionally, you may hold the amulet over a creature's eyes, or your own. The target is blinded in all respects, 
+        except that they can see in magical darkness for a minute.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">500</set>
+            <set name="weight" lb="0">5 lb.</set>
+            <set name="slot">neck</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+
+
+
+</elements>
