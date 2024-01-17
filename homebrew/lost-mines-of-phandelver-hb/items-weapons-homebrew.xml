@@ -8,9 +8,31 @@
 			<file name="items-weapons-homebrew.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-weapons.xml" />
 		</update>
 	</info>
-	<element name="Stormbreakerdassd" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_WEAPON_STORMBREAKER">
+	<element name="Stormbreaker" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_WEAPON_STORMBREAKER">
 		<description>
 			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p>This +1 longbow is a one ofa kind creation. Made from the anger of Saelcerys
+				this bow can change its form into twin short swords as a bonus action. Attacks
+				made with this weapon do WISDOM MODIFIER bonus lightning damage. In
+				shon sword form wielder gains +1 AC. When you roll a 1 in bow form you
+				cast the thunderclap cantrip. When not being used Stormbreaker can float
+				around you in shards with your swarm or be turned into a dense shield on
+				our back. Dama Id10+dex+wis+1<br/></p>
+				<p>Stormbreaker has 3 charges per long rest it can use to cast spells.</p>
+				<p class="indent">1 Charge: Storm of arrows, I Action, Range 60ft, 40ft cylinder IOft wide- Fire
+				an arrow of pure electricity into the air, after reaching above its mark the
+				arrow magically duplicates creating a rain of lightning bolts. Creature inside
+				the circle make a dexterity saving throw or take 4d6 lightning damage<br/></p>
+				<p class="indent">1 Charge: Magnetic arrows, Range 90ft, Duration 1 hour (increased by 1 hour
+				per charge used) - As a bonus action mark an enemy with a lightning charge,
+				all of your attacks against the enemy have +3 and deal an extra ld8 lightning
+				damage. If the target dies before the spell ends as a bonus action you can move
+				the lightning charge to another creature in range. Marked targets do not gain
+				any bonuses from cover.<br/></p>
+				<p class="indent">1 Charge: Thunderwave: Each creature in a 15-foot cube originating from you
+				must make a Constitution saving throw. On a failed save, a creature takes 3d8
+				thunder damage and is pushed 10 feet away from you. On a successful save, the
+				creature takes half as much damage and isn't pushed.<br/></p> 
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -18,8 +40,9 @@
 			<set name="type" addition="longbow">Weapon</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
+			<set name="damage" type="piercing">1d10</set> 
 			<set name="weapon">Longbow</set>
-			<set name="name-format">{{parent}} +{{enhancement}}</set>
+			<set name="name-format">Stormbreaker</set>
 		</setters>
 	</element>
 </elements>
