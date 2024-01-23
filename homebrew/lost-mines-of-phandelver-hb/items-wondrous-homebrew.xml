@@ -24,6 +24,7 @@
         </rules>
     </element>
 
+    <!-- Keogak -->
     <element name="Awareness Frames" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_AWARENESS_FRAMES">
         <description>
             <p>A pair of thick-framed glasses that grants the wearer a +2 bonus to Perception and Awareness checks. As an action, the wearer can confer 
@@ -43,6 +44,7 @@
         </rules>
     </element>
 
+    <!-- Saelcerys -->
     <element name="Whisper of the Noose" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_WHISPER_OF_THE_NOOSE">
         <description>
             <p>An elegant looking ribbon/bow made of mahogany with a very thin strip of emerald running down the length of the material.
@@ -58,6 +60,8 @@
             <set name="rarity">Rare</set>
         </setters>
     </element>
+
+    <!-- Antoine -->
     <element name="Fletcher's Mitt" type="Item" source="Homebrew" id="ID_HB_ITEM_FLETCHERS_MITT">
         <description>
             <p>A green clothed glove that allows the user to avoid or catch any projectile. It grants the wearer a +2 AC to all ranged non-magical attacks. 
@@ -73,6 +77,8 @@
             <set name="rarity">Rare</set>
         </setters>
     </element>
+
+    <!-- Haywood -->
     <element name="Broom of Flying" type="Item" source="Homebrew" id="ID_HB_ITEM_BROOM_OF_FLYING">
         <description>
             <p>2 uses per day. An item that resembles a simple broom, used for sweeping. Upon using a command word, as chosen by the user, 
@@ -95,6 +101,7 @@
         </sheet>
     </element>
 
+    <!-- Raspberry -->
     <element name="Demon Eye Amulet" type="Item" source="Homebrew" id="ID_HB_ITEM_DEMON_EYE_AMULET">
         <description>
             <p>You have advantage for deception checks on all creatures within 10 feet of you, and they have disadvantage against all deception checks 

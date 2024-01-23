@@ -16,5 +16,6 @@
 		<file name="items-treasure-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-treasure-homebrew.xml" />
 		<file name="items-weapons-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-weapons-homebrew.xml" />
 		<file name="items-wondrous-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-wondrous-homebrew.xml" />
+		<file name="items-additional-homebrew.index" url="https://raw.githubusercontent.com/simpso0638/dnd-homebrew/main/homebrew/lost-mines-of-phandelver-hb/items-wondrous-homebrew.xml" />
 	</files>
 </index>
