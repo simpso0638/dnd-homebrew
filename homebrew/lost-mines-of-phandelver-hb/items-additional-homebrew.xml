@@ -8,20 +8,4 @@
         </update>
     </info>
 
-    <!-- Items for everyone -->
-    <element name="Black Beaver Cloak" type="Magic Item" source="Homebrew" id="ID_HB_MAGIC_ITEM_ADD_BLACK_BEAVER_CLOAK">
-        <description>
-            <p>A cape made of black beaver pelts, draping over one shoulder. You gain a +1 bonus to AC.</p>
-        </description>
-        <setters>
-            <set name="category">Additional Items</set>
-            <set name="cost" currency="gp">50</set>
-            <set name="weight" lb="0">3 lb.</set>
-            <set name="slot">shoulders</set>
-            <set name="rarity">Rare</set>
-        </setters>
-        <rules>
-            <stat name="ac:misc" value="1" />
-        </rules>
-    </element>
 </elements>
